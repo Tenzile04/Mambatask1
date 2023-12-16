@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Data\\Mamba.Data.csproj": {}
+    "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Data\\Mamba.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Core\\Mamba.Core.csproj": {
+    "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Core\\Mamba.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Core\\Mamba.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Core\\Mamba.Core.csproj",
         "projectName": "Mamba.Core",
-        "projectPath": "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Core\\Mamba.Core.csproj",
-        "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Core\\obj\\",
+        "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Core\\Mamba.Core.csproj",
+        "packagesPath": "C:\\Users\\Tenzıle SSD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tenzıle SSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -89,17 +94,21 @@
         }
       }
     },
-    "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Data\\Mamba.Data.csproj": {
+    "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Data\\Mamba.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Data\\Mamba.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Data\\Mamba.Data.csproj",
         "projectName": "Mamba.Data",
-        "projectPath": "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Data\\Mamba.Data.csproj",
-        "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Data\\obj\\",
+        "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Data\\Mamba.Data.csproj",
+        "packagesPath": "C:\\Users\\Tenzıle SSD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tenzıle SSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,14 +116,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Core\\Mamba.Core.csproj": {
-                "projectPath": "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Core\\Mamba.Core.csproj"
+              "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Core\\Mamba.Core.csproj": {
+                "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Core\\Mamba.Core.csproj"
               }
             }
           }

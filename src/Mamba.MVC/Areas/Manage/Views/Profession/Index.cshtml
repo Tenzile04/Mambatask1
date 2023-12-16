@@ -1,0 +1,49 @@
+﻿﻿@using Mamba.Core.Models;
+
+@model List<Profession>
+@{
+    int counter = 0;
+}
+@section csss {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.10.1/sweetalert2.min.css" integrity="sha512-l1vPIxNzx1pUOKdZEe4kEnWCBzFVVYX5QziGS7zRZE4Gi5ykXrfvUgnSBttDbs0kXe2L06m9+51eadS+Bg6a+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+}
+
+<div>
+    <h1>Create Profession</h1>
+    <a asp-controller="profession" asp-action="create" class="btn btn-primary ">Create</a>
+</div>
+
+<table class="table" style="overflow:scroll;max-width:1000px;">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Action</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            counter++;
+            <tr>
+                <th scope="row">@counter</th>
+                <td>@item.Name</td>
+
+                <td>
+                    <a asp-controller="profession" asp-action="update" asp-route-id="@item.Id" class="btn btn-primary">Update</a>
+                    <a asp-controller="profession" asp-action="delete" asp-route-id="@item.Id" class="btn btn-danger delete-btn">Delete</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+</table>
+@section Scripts {
+    <script src="~/manage/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.10.1/sweetalert2.min.js" integrity="sha512-lhtxV2wFeGInLAF3yN3WN/2wobmk+HuoWjyr3xgft42IY0xv4YN7Ao8VnYOwEjJH1F7I+fadwFQkVcZ6ege6kA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+}

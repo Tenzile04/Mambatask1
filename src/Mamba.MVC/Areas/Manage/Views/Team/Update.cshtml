@@ -1,0 +1,45 @@
+﻿﻿@using Mamba.Core.Models;
+
+@model Team
+
+<div class="container-fluid">
+    <h1>Update Team</h1>
+</div>
+
+<div class="container-fluid">
+
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="@Model.FullName">FullName</label>
+            <input asp-for="@Model.FullName" type="text" class="form-control">
+            <span asp-validation-for="@Model.FullName"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.ImageUrl">ImageUrl</label>
+            <input asp-for="@Model.ImageUrl" class="form-control">
+            <span asp-validation-for="@Model.ImageUrl"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.ProfessionId">Profession</label>
+            <select asp-for="@Model.ProfessionId" class="form-control">
+                @foreach (var item in ViewBag.Professions)
+                {
+                    <option value="@item.Id">@item.Name</option>
+                }
+            </select>
+            <span asp-validation-for="@Model.ProfessionId"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.LinkUrl">LinkUrl</label>
+            <input asp-for="@Model.LinkUrl" class="form-control">
+            <span asp-validation-for="@Model.LinkUrl"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.ImageFile">ImageFile</label>
+            <input asp-for="@Model.ImageFile" class="form-control">
+            <span asp-validation-for="@Model.ImageFile"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+
+</div>

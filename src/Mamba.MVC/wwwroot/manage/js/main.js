@@ -1,8 +1,10 @@
 ﻿let deleteBtns = document.querySelectorAll(".delete-btn");
-
-deleteBtns.forEach(delBtn => delBtn.addEventListener("click", (e) => {
+deleteBtns.forEach(btn => btn.addEventListener("click", function (e) {
     e.preventDefault();
-    let url = delBtn.getAttribute("href")
+
+    let url = btn.getAttribute("href");
+
+
 
     Swal.fire({
         title: "Are you sure?",
@@ -14,20 +16,15 @@ deleteBtns.forEach(delBtn => delBtn.addEventListener("click", (e) => {
         confirmButtonText: "Yes, delete it!"
     }).then((result) => {
         if (result.isConfirmed) {
+            fetch(url)
+                .then(response => {
+                    if (response.status == 200) {
+                        window.location.reload(true);
+                    } else {
+                        alert("tapilmadi")
+                    }
+                })
 
-            fetch(url).then(res => {
-                if (res.ok == true) {
-                    window.location.reload(true);
-
-                } else {
-                    Swal.fire({
-                        icon: "error",
-                        title: "Oops...",
-                        text: "Something went wrong!",
-                    });
-                }
-
-            })
         }
     });
 }))

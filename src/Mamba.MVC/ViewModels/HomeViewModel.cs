@@ -4,6 +4,7 @@ namespace Mamba.MVC.ViewModels
 {
     public class HomeViewModel
     {
-        public List<Team> teams { get; set; }
+        public List<Profession> Professions { get; set; }
+        public List<Team> Teams { get; set; }
     }
 }

@@ -25,7 +25,7 @@ namespace Mamba.MVC.Areas.Manage.Controllers
         //    AppUser admin = new AppUser()
         //    {
         //        FullName = "Tenzile Abdiyeva",
-        //        UserName = "SuperAdmin"     
+        //        UserName = "SuperAdmin"
 
         //    };
         //    var result = await _userManager.CreateAsync(admin, "Admin1234@");
@@ -38,10 +38,10 @@ namespace Mamba.MVC.Areas.Manage.Controllers
         //    IdentityRole role2 = new IdentityRole("Admin");
         //    IdentityRole role3 = new IdentityRole("Member");
 
-        //    await _roleManager.CreateAsync(role1); 
+        //    await _roleManager.CreateAsync(role1);
         //    await _roleManager.CreateAsync(role2);
         //    await _roleManager.CreateAsync(role3);
-        //    return Ok("created");
+        //    return Ok("yarandi");
         //}
         //public async Task<IActionResult> AddRoleAdmin()
         //{

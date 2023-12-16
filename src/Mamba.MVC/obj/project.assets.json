@@ -2283,19 +2283,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\II novbe\\.nuget\\packages\\": {}
+    "C:\\Users\\Tenzıle SSD\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.MVC\\Mamba.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.MVC\\Mamba.MVC.csproj",
       "projectName": "Mamba.MVC",
-      "projectPath": "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.MVC\\Mamba.MVC.csproj",
-      "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.MVC\\obj\\",
+      "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.MVC\\Mamba.MVC.csproj",
+      "packagesPath": "C:\\Users\\Tenzıle SSD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.MVC\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tenzıle SSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2303,14 +2308,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Business\\Mamba.Business.csproj": {
-              "projectPath": "C:\\Users\\II novbe\\Desktop\\rand\\Visual studio\\Mamba\\src\\Mamba.Business\\Mamba.Business.csproj"
+            "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Business\\Mamba.Business.csproj": {
+              "projectPath": "C:\\Users\\Tenzıle SSD\\Desktop\\Mambatask1\\src\\Mamba.Business\\Mamba.Business.csproj"
             }
           }
         }
